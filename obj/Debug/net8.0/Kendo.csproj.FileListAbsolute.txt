@@ -141,3 +141,4 @@ C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\refint\Kendo.dll
 C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.pdb
 C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.genruntimeconfig.cache
 C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\ref\Kendo.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.sourcelink.json

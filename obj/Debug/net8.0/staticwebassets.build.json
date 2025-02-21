@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kL3NPpnKiYhrQhpR1T7WaQmZj1GtUFbI8OJaDoy0vjs=",
+  "Hash": "sHAJbP2qZWq4uHxHngjmBEjZMZ3YuNXjG2JYXpFjehA=",
   "Source": "Kendo",
   "BasePath": "_content/Kendo",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\profile_images\\a@gmail.com.jpg",
+      "SourceId": "Kendo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\",
+      "BasePath": "_content/Kendo",
+      "RelativePath": "profile_images/a@gmail.com.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_images\\a@gmail.com.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\profile_images\\ufnduib@fud.com.jpg",
+      "SourceId": "Kendo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\",
+      "BasePath": "_content/Kendo",
+      "RelativePath": "profile_images/ufnduib@fud.com.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_images\\ufnduib@fud.com.jpg"
     }
   ]
 }

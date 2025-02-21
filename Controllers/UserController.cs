@@ -138,6 +138,55 @@ namespace Kendo.Controllers
             return View("Error!");
         }
 
+        [HttpGet]
+        public IActionResult KendoRegister()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<JsonResult> KendoRegister(User user)
+        {
+            try
+            {
+                if (user.ProfilePicture != null && user.ProfilePicture.Length > 0)
+                {
+                    var fileName = user.c_Email + Path.GetExtension(user.ProfilePicture.FileName);
+                    var filePath = Path.Combine("wwwroot/profile_images", fileName);
+
+                    Directory.CreateDirectory(Path.Combine("wwwroot/profile_images"));
+                    user.c_Image = fileName;
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await user.ProfilePicture.CopyToAsync(stream);
+                    }
+                }
+
+                // _user.Add(user);
+                // return Json(new { success = true, message = "Registration Successful!!", redirectUrl = Url.Action("KendoLogin", "User") });
+                int result = await _user.Register(user);
+
+                if (result == 0)
+                {
+                    return Json(new { success = false, message = "Email already exists. Please use a different email." });
+                }
+                else if (result == 1)
+                {
+                    return Json(new { success = true, message = "Registration Successful!!", redirectUrl = Url.Action("KendoLogin", "User") });
+                }
+                else
+                {
+                    return Json(new { success = false, message = "Registration failed due to an unexpected error." });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error: " + ex.Message });
+            }
+        }
+
 
     }
 }

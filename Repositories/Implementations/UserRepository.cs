@@ -129,6 +129,7 @@ namespace Kendo.Repositories.Implementations
                 }
 
                 status = 1; // Registration successful
+                
             }
             catch (Exception ex)
             {

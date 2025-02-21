@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\profile_images\\a@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\a@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\wwwroot\\profile_images\\ufnduib@fud.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\ufnduib@fud.com.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

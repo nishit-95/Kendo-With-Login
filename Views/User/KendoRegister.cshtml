@@ -1,0 +1,159 @@
+@model User
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div id="alert" style="display:none">
+    <h6 id="message"></h6>
+</div>
+
+<form id="registerForm"></form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2021.2.616/js/kendo.all.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Kendo Form
+            $("#registerForm").kendoForm({
+                formData: {
+                    c_username: "",
+                    c_Email: "",
+                    c_Password: "",
+                    c_Address: "",
+                    c_Mobile: "",
+                    c_Gender: "Male",
+                    ProfilePicture: null
+                },
+                items: [
+                    {
+                        field: "c_username",
+                        label: "Username",
+                        validation: {
+                            required: { message: "Username is required." }
+                        }
+                    },
+                    {
+                        field: "c_Email",
+                        label: "Email",
+                        validation: {
+                            required: { message: "Email is required." },
+                            email: { message: "Enter a valid email address." }
+                        }
+                    },
+                    {
+                        field: "c_Password",
+                        label: "Password",
+                        validation: {
+                            required: { message: "Password is required." },
+                            minLength: { message: "Password must be at least 6 characters.", value: 6 }
+                        },
+                        editor: function (container, options) {
+                            $("<input>", {
+                                type: "password",
+                                name: options.field,
+                                required: "required",
+                                class: "k-textbox"
+                            }).appendTo(container);
+
+                        }
+                    },
+                    {
+                        field: "c_Address",
+                        label: "Address",
+                        validation: {
+                            required: { message: "Address is required." }
+                        }
+                    },
+                    {
+
+                        field: "c_Mobile",
+                        label: "Mobile",
+                        validation: {
+                            pattern: "^\\d{10}$",
+                            message: "Invalid phone number."
+                        }
+                    },
+                    {
+                        field: "c_Gender",
+                        label: "Gender",
+                        editor: function (container, options) {
+                            var radioHtml = `
+                                            <label><input type="radio" name="c_Gender" value="Male" checked> Male</label>
+                                            <label style="margin-left:10px;"><input type="radio" name="c_Gender" value="Female"> Female</label>
+                                            <label style="margin-left:10px;"><input type="radio" name="c_Gender" value="Other"> Other</label>
+                                        `;
+                            $(radioHtml).appendTo(container);
+                        }
+                    },
+                    {
+                        field: "ProfilePicture",
+                        label: "Profile Picture",
+                        editor: function (container, options) {
+                            $("<input type='file'>").attr("name", options.field).appendTo(container);
+                        }
+                    }
+                ],
+                buttonsTemplate: '<button type="submit" class="k-button k-primary">Register</button>'
+            });
+
+            // Kendo Validator for Client-side Validation
+            var validator = $("#registerForm").kendoValidator().data("kendoValidator");
+
+            $("#registerForm").on("submit", function (e) {
+                e.preventDefault();
+                $("#alert").removeClass("alert alert-success alert-danger").hide();
+
+                if (validator.validate()) {
+                    var formData = new FormData();
+                    formData.append("c_username", $("input[name='c_username']").val());
+                    formData.append("c_Email", $("input[name='c_Email']").val());
+                    formData.append("c_Password", $("input[name='c_Password']").val());
+                    formData.append("c_Address", $("input[name='c_Address']").val());
+                    formData.append("c_Mobile", $("input[name='c_Mobile']").val());
+                    formData.append("c_Gender", $("input[name='c_Gender']:checked").val()); // Fix gender selection
+                    formData.append("ProfilePicture", $("input[name='ProfilePicture']")[0].files[0]);
+
+                    $.ajax({
+                        url: "/User/KendoRegister",
+                        type: "POST",
+                        processData: false, // Don't process FormData
+                        contentType: false, // Let browser set content type
+                        data: formData,
+                        success: function (res) {
+                            if (res.success) {
+                                $("#alert").addClass("alert alert-success").show();
+                                $("#message").text(res.message);
+                                setTimeout(() => {
+                                    window.location.href = res.redirectUrl;
+                                }, 2000);
+                            } else {
+                                $("#alert").addClass("alert alert-danger").show();
+                                $("#message").text(res.message);
+                                setTimeout(() => {
+                                    alertBox.fadeOut();
+                                }, 5000);
+
+                            }
+                        },
+                        error: function (error) {
+                            $("#alert").addClass("alert alert-danger").show();
+                            $("#message").text(error.responseJSON?.message || "Registration failed.");
+                            setTimeout(() => {
+                                alertBox.fadeOut();
+                            }, 5000);
+                        }
+                    });
+                }
+            });
+
+        });
+    </script>
+}
