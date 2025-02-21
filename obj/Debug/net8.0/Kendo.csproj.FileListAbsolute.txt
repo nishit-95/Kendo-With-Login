@@ -1,0 +1,143 @@
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\appsettings.Development.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\appsettings.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.staticwebassets.runtime.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.exe
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.deps.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.runtimeconfig.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Kendo.pdb
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\bin\Debug\net8.0\Npgsql.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.csproj.AssemblyReference.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfoInputs.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfo.cs
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.csproj.CoreCompileInputs.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.MvcApplicationPartsAssemblyInfo.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cs
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets.build.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets.development.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo.props
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo.props
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo.props
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\scopedcss\bundle\Kendo.styles.css
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\scopedcss\projectbundle\Kendo.bundle.scp.css
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.csproj.Up2Date
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\refint\Kendo.dll
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.pdb
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\Kendo.genruntimeconfig.cache
+D:\Case Point\Code Work\c#\mvc\KendoUI\Kendo\obj\Debug\net8.0\ref\Kendo.dll
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\appsettings.Development.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\appsettings.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.staticwebassets.runtime.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.staticwebassets.endpoints.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.exe
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.deps.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.runtimeconfig.json
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.dll
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Kendo.pdb
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\KendoUI\Kendo\kendo\bin\Debug\net8.0\Npgsql.dll
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.csproj.AssemblyReference.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.GeneratedMSBuildEditorConfig.editorconfig
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.AssemblyInfoInputs.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.AssemblyInfo.cs
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.csproj.CoreCompileInputs.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.MvcApplicationPartsAssemblyInfo.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cs
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\scopedcss\bundle\Kendo.styles.css
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\scopedcss\projectbundle\Kendo.bundle.scp.css
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets.build.json
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets.development.json
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo.props
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo.props
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo.props
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\staticwebassets.pack.json
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.csproj.Up2Date
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.dll
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\refint\Kendo.dll
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.pdb
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\Kendo.genruntimeconfig.cache
+E:\KendoUI\Kendo\kendo\obj\Debug\net8.0\ref\Kendo.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\appsettings.Development.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\appsettings.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.staticwebassets.runtime.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.exe
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.deps.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.runtimeconfig.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Kendo.pdb
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\bin\Debug\net8.0\Npgsql.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.csproj.AssemblyReference.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfoInputs.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfo.cs
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.csproj.CoreCompileInputs.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.MvcApplicationPartsAssemblyInfo.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cs
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets.build.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets.development.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo.props
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo.props
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo.props
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\scopedcss\bundle\Kendo.styles.css
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\scopedcss\projectbundle\Kendo.bundle.scp.css
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.csproj.Up2Date
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\refint\Kendo.dll
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.pdb
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\Kendo.genruntimeconfig.cache
+D:\Internship\Technology\Kendo\KendoUI\Kendo\Kendo\obj\Debug\net8.0\ref\Kendo.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\appsettings.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.staticwebassets.runtime.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.exe
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.deps.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.runtimeconfig.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Kendo.pdb
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\bin\Debug\net8.0\Npgsql.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.csproj.AssemblyReference.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfoInputs.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.AssemblyInfo.cs
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.csproj.CoreCompileInputs.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.RazorAssemblyInfo.cs
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.Kendo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.build.Kendo.props
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Kendo.props
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Kendo.props
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\scopedcss\bundle\Kendo.styles.css
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\scopedcss\projectbundle\Kendo.bundle.scp.css
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.csproj.Up2Date
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\refint\Kendo.dll
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.pdb
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\Kendo.genruntimeconfig.cache
+C:\Users\nishi\Downloads\Kendo1\Kendo\obj\Debug\net8.0\ref\Kendo.dll

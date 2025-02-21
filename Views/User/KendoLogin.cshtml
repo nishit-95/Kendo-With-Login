@@ -1,0 +1,193 @@
+<h1>Login Form</h1>
+
+<form id="loginForm"></form>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2021.2.616/js/kendo.all.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#loginForm").kendoForm({
+                formData: {
+                    Email: "",
+                    Password: ""
+                },
+                items: [
+                    {
+                        field: "Email",
+                        label: "Email:",
+                        validation: {
+                            required: { message: "Email is required" },
+                            email: { message: "Please enter a valid email address." }
+                        }
+                    },
+                    {
+                        field: "Password",
+                        label: "Password:",
+                        validation: {
+                            required: { message: "Password is required" }
+                        },
+                        editor: function (container, options) {
+                            $('<input>', {
+                                type: 'password', name: options.field, class: 'k-textbox',
+                            }).appendTo(container);
+                        }
+                                            @* editor: function (container, options) {
+                            $('<input type="password" name="Password" />')
+                                .appendTo(container)
+                                .kendoTextBox();
+                        } *@
+                                        }
+                                    ],
+                buttonsTemplate: '<button type="submit" class="k-button k-primary">Login</button>'
+                        });
+
+        var validator = $("#loginForm").kendoValidator().data("kendoValidator");
+
+        $("#loginForm").on("submit", function (e) {
+            e.preventDefault();
+            $("#alert").removeClass("alert alert-success alert-danger").hide();
+
+            if (validator.validate()) {
+                var formData = {
+                    c_Email: $('input[name="Email"]').val(),
+                    c_Password: $('input[name="Password"]').val()
+                };
+                console.log(JSON.stringify(formData));
+
+                $.ajax({
+                    url: "http://localhost:5084/User/KendoLogin",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(formData),
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                title: "Success!",
+                                text: response.message,
+                                icon: "success",
+                                confirmButtonText: "OK"
+                            }).then(() => {
+                                window.location.href = "/MyCity/index"; // Redirect after clicking OK
+                            });
+                        } else {
+                            Swal.fire({
+                                title: "Error!",
+                                text: response.message,
+                                icon: "error",
+                                confirmButtonText: "OK"
+                            });
+                        }
+                    },
+                    error: function () {
+                        Swal.fire({
+                            title: "Error!",
+                            text: "An unexpected error occurred.",
+                            icon: "error",
+                            confirmButtonText: "OK"
+                        });
+                    }
+                });
+            }
+        });
+                    });
+    </script>
+}
+@* 
+
+<!-- Kendo Form -->
+<form id="loginForm"></form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2021.2.616/js/kendo.all.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Kendo Form
+            $("#loginForm").kendoForm({
+                formData: {
+                    Email: ""
+                },
+                items: [
+                    {
+                        field: "c_Email",
+                        label: "Email:",
+                        validation: {
+                            required: { message: "Email is required." },
+                            email: { message: "Please enter a valid email address." }
+                        }
+                    },
+                    {
+                        field: "c_Password",
+                        label: "Password:",
+                        validation: {
+                            required: { message: "Password is required." }
+                        },
+                        editor: function (container, options) {
+                            return $("<input type='password'>")
+                                .appendTo(container)
+                                .kendoTextBox();
+                        }
+                    }
+                ],
+                buttonsTemplate: '<button type="submit" class="k-button k-primary">Login</button>'
+            });
+
+            // Kendo Validator for Client-side Validation
+            var validator = $("#loginForm").kendoValidator().data("kendoValidator");
+
+            // Handle Form Submission
+            $("#loginForm").on("submit", function (e) {
+                e.preventDefault();
+                $("#alert").removeClass("alert alert-success alert-danger").hide();
+
+
+                if (validator.validate()) {
+                    var formData = {
+                        c_Email: $("input[name='c_Email']").val(),
+                        c_Password: $("input[name='c_Password']").val()
+                    };
+                    console.log(JSON.stringify(formData));
+                    $.ajax({
+                        url: "/User/KendoLogin",
+                        type: "POST",
+                        contentType: "application/json",
+                        data: JSON.stringify(formData),
+                        success: function (res) {
+                            if (res.success) {
+                                localStorage.setItem("token", res.token);
+                                $("#alert").addClass("alert alert-success").show();
+                                $("#message").text(res.message);
+                                setTimeout(() => {
+                                    window.location.href = res.redirectUrl;
+                                }, 1000);
+                            } else {
+                                $("#alert").addClass("alert alert-danger").show();
+                                $("#message").text(res.message);
+                            }
+                        },
+                        error: function (error) {
+                            $("#alert").addClass("alert alert-danger").show();
+                            $("#message").text(error.responseJSON?.message || "Login failed.");
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+} *@

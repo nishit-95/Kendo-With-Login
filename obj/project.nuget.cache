@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "e6OGR7drEuc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nishi\\Downloads\\Kendo1\\Kendo\\Kendo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nishi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\nishi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\nishi\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
